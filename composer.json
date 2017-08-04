@@ -1,0 +1,24 @@
+{
+  "name": "theprivateer/collection",
+  "description": "A super-simple implementation of Collections.",
+  "authors" : [{
+    "name" : "Phil Stephens",
+    "email" : "emailtheprivateer@gmail.com"
+  }
+  ],
+  "keywords" : [
+    "Collection", "Array"
+  ],
+  "homepage" : "https://github.com/theprivateer/collection",
+  "license" : [
+    "MIT"
+  ],
+  "require": {
+    "php": ">=5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Privateer\\Collections\\": "src/"
+    }
+  }
+}
